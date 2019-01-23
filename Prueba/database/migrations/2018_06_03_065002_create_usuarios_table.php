@@ -22,7 +22,7 @@ class CreateUsuariosTable extends Migration
             $table->text('telefono');
             $table->string('email',40);
             $table->integer('status');
-            $table->date('fecha_nacimiento');
+            $table->date('fecha_nacimiento')->nullable();
             $table->timestamps();
         });
     }

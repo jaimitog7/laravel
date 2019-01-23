@@ -31,7 +31,7 @@ class UsuarioCreateRequest extends FormRequest
           'telefono'=> 'required|numeric',
           'email'=> 'required|email|max:40',
           'status'=> 'required|boolean',
-          'fecha_nacimiento'=> 'required|date'
+        //    'fecha_nacimiento'=> 'date'
         ];
     }
 }
